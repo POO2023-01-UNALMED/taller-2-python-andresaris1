@@ -10,14 +10,14 @@ class Auto:
 
     def _init_(self, cantidadasientos):
         self.asientos += cantidadasientos
+        return asientos
 
     def _init(self, verificarIntegridad):
         if (self.registro1 == regristro2 ==registro3):
             print('Auto original')
         else:
             print('Las piezas no son originales')
-            
-            
+        return verificarIntegridad
 
 class Asiento:
     def _init_(self, precio, registro2):
